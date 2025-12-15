@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cried Wolf (WOLF) × Obvi – Official Token</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cried Wolf (WOLF) is Obvi's official fan-access utility token, built to challenge the system and empower independent artists." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Silver/metallic glow animation */
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 40px rgba(209,213,219,0.4), 0 0 20px rgba(229,231,235,0.3); }
+      50% { box-shadow: 0 0 80px rgba(209,213,219,0.7), 0 0 40px rgba(229,231,235,0.5); }
+    }
+    /* Subtle fade-in animation */
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 0.6s ease-out;
+    }
+    /* Scrolling banner animation */
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-scroll {
+      animation: scroll 30s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-gray-50 antialiased">
+  <!-- Top Bar -->
+  <header class="border-b border-gray-700/50 bg-gray-900/80 backdrop-blur z-30 sticky top-0">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-2 group">
+        <div class="px-3 py-1.5 rounded-lg bg-gradient-to-br from-gray-300 to-gray-500 flex items-center justify-center font-black text-gray-900 text-xs sm:text-sm shadow-lg shadow-gray-400/30 group-hover:shadow-gray-400/50 transition-all group-hover:scale-105">
+          WOLF
+        </div>
+        <div>
+          <div class="font-semibold tracking-tight text-sm sm:text-base group-hover:text-gray-300 transition-colors">Cried Wolf</div>
+          <div class="text-[10px] text-gray-400/80 uppercase tracking-[0.2em]">Obvi</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-gray-300 transition">Artist</a>
+        <a href="#tokenomics" class="hover:text-gray-300 transition">Cried Wolf</a>
+        <a href="#roadmap" class="hover:text-gray-300 transition">Roadmap</a>
+        <a href="#links" class="hover:text-gray-300 transition">Connect</a>
+      </nav>
+      <a
+        href="https://pump.gala.com/buy-sell/obvi"
+        target="_blank"
+        class="inline-flex items-center gap-2 rounded-full bg-gray-300 text-gray-900 px-4 py-1.5 text-xs sm:text-sm font-semibold shadow-lg shadow-gray-400/30 hover:bg-gray-200 transition"
+      >
+        Buy $WOLF
+      </a>
+    </div>
+  </header>
+
+  <main id="top" class="max-w-6xl mx-auto px-4 pb-20 pt-10 space-y-20 sm:space-y-24">
+    <!-- HERO -->
+    <section class="grid md:grid-cols-2 gap-10 items-center animate-fade-in">
+      <div class="space-y-6">
+        <p class="text-xs font-semibold tracking-[0.35em] uppercase text-gray-400">
+          <span class="inline-flex items-center gap-1">LIVE</span> Obvi • Artist Token
+        </p>
+        <h1 class="text-4xl sm:text-5xl font-black tracking-tight leading-tight">
+          <span class="bg-gradient-to-r from-gray-300 via-gray-400 to-gray-300 bg-clip-text text-transparent">
+            Cried Wolf:
+          </span>
+          <br />
+          <span class="text-gray-50">Challenge the System, Own Your Voice</span>
+        </h1>
+        <p class="text-sm sm:text-base text-gray-300 max-w-xl">
+          Cried Wolf is a Gala Music token built to challenge the current system and empower independent artists who feel unheard. This ecosystem is about freedom, ownership, and giving a real voice to creatives who refuse to be boxed in.
+        </p>
+
+        <div class="flex flex-wrap gap-3">
+          <a
+            href="https://pump.gala.com/buy-sell/obvi"
+            target="_blank"
+            class="inline-flex items-center gap-2 rounded-full bg-gray-300 text-gray-900 px-5 py-2 text-sm font-semibold shadow-lg shadow-gray-400/30 hover:bg-gray-200 transition"
+          >
+            Buy $WOLF
+          </a>
+          <a
+            href="#tokenomics"
+            class="inline-flex items-center gap-2 rounded-full border border-gray-700 px-5 py-2 text-sm font-semibold hover:border-gray-500 hover:text-gray-200 transition"
+          >
+            How it works
+          </a>
+          <a
+            href="#links"
+            class="inline-flex items-center gap-2 rounded-full border border-gray-700 px-5 py-2 text-sm font-semibold hover:border-gray-500 hover:text-gray-200 transition"
+          >
+            Connect
+          </a>
+        </div>
+
+        <dl class="grid grid-cols-3 gap-4 text-xs sm:text-sm">
+          <div>
+            <dt class="text-gray-400">Artist</dt>
+            <dd class="font-semibold">Obvi</dd>
+          </div>
+          <div>
+            <dt class="text-gray-400">Ecosystem</dt>
+            <dd class="font-semibold">Gala Music</dd>
+          </div>
+          <div>
+            <dt class="text-gray-400">Ticker</dt>
+            <dd class="font-semibold">$WOLF</dd>
+          </div>
+        </dl>
+        <p class="text-xs text-gray-400 italic">Cried Wolf — Your digital pass to creative freedom and artist ownership.</p>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="flex justify-center">
+        <div class="relative">
+          <div
+            class="relative w-48 sm:w-60 aspect-[1/2] rounded-3xl bg-gradient-to-br from-gray-400/30 via-gray-300/30 to-gray-500/30 border-2 border-gray-300/60 overflow-hidden shadow-2xl shadow-gray-300/40 animate-[pulse-glow_3s_ease-in-out_infinite]"
+          >
+            <img
+              src="assets/Cried Wolf - Obvi.jpeg"
+              alt="Obvi - Cried Wolf"
+              class="h-full w-full object-cover rounded-3xl"
+            />
+          </div>
+          <div class="absolute -bottom-6 -right-4 bg-gray-800/90 border border-gray-700 rounded-2xl px-4 py-2 text-xs shadow-xl backdrop-blur-sm">
+            <p class="text-[10px] uppercase tracking-[0.25em] text-gray-300 font-semibold mb-1">
+              🐺 WOLF PACK ACCESS
+            </p>
+            <p class="text-gray-200">Exclusive content, early drops, VIP experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCROLLING BANNER -->
+    <section class="relative w-full -mx-4 sm:-mx-6 overflow-hidden border-y border-gray-700/50 py-3">
+      <div class="flex animate-scroll whitespace-nowrap text-xs sm:text-sm text-gray-400">
+        <span class="mx-4">◆Obvi • Cried Wolf (WOLF) • Challenge the System • Own Your Voice◆</span>
+        <span class="mx-4">◆Obvi • Cried Wolf (WOLF) • Challenge the System • Own Your Voice◆</span>
+        <span class="mx-4">◆Obvi • Cried Wolf (WOLF) • Challenge the System • Own Your Voice◆</span>
+        <span class="mx-4">◆Obvi • Cried Wolf (WOLF) • Challenge the System • Own Your Voice◆</span>
+        <span class="mx-4">◆Obvi • Cried Wolf (WOLF) • Challenge the System • Own Your Voice◆</span>
+      </div>
+    </section>
+
+    <!-- ABOUT OBVI -->
+    <section id="about" class="grid md:grid-cols-[1.1fr,0.9fr] gap-10 items-start">
+      <div class="space-y-4">
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em]">The Artist</p>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Obvi</h2>
+        <p class="text-sm sm:text-base text-gray-300">
+          I am Obvi, a Bay Area–born rapper, singer, songwriter, and producer. I am a RIAA-certified, Billboard-charting producer and songwriter focused on creative freedom and artist ownership.
+        </p>
+        <p class="text-sm sm:text-base text-gray-300">
+          Cried Wolf is a Gala Music token built to challenge the current system and empower independent artists who feel unheard. This ecosystem is about freedom, ownership, and giving a real voice to creatives who refuse to be boxed in. It's a space where artists and fans grow together, creating moments, value, and opportunities outside the traditional industry model.
+        </p>
+        
+        <!-- Credentials Highlight -->
+        <div class="border border-gray-600/30 rounded-2xl p-5 bg-gradient-to-br from-gray-800/10 to-gray-700/10 backdrop-blur-sm mt-6">
+          <p class="text-xs font-semibold text-gray-300 uppercase tracking-[0.25em] mb-3">Artist Achievements</p>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-0.5">•</span>
+              <span><strong>RIAA-Certified</strong> — Recognized producer and songwriter with industry credentials.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-0.5">•</span>
+              <span><strong>Billboard-Charting</strong> — Proven track record of commercial success and chart performance.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-0.5">•</span>
+              <span><strong>Multi-Talented</strong> — Rapper, singer, songwriter, and producer with a complete creative skill set.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-0.5">•</span>
+              <span><strong>Bay Area Roots</strong> — Born and raised in the Bay Area, bringing authentic West Coast energy to the music.</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="grid sm:grid-cols-2 gap-4 pt-4">
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-sm">
+              <span class="text-lg">🎤</span>
+              <h3 class="font-semibold text-gray-200">Creative Freedom</h3>
+            </div>
+            <p class="text-xs text-gray-400">
+              Focused on breaking free from traditional industry constraints and building independent pathways.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-sm">
+              <span class="text-lg">🎵</span>
+              <h3 class="font-semibold text-gray-200">Artist Ownership</h3>
+            </div>
+            <p class="text-xs text-gray-400">
+              Championing a model where artists maintain control over their work and creative direction.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-sm">
+              <span class="text-lg">🐺</span>
+              <h3 class="font-semibold text-gray-200">Empowerment</h3>
+            </div>
+            <p class="text-xs text-gray-400">
+              Building a community that gives voice to independent artists who feel unheard.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-sm">
+              <span class="text-lg">💎</span>
+              <h3 class="font-semibold text-gray-200">Web3 Innovation</h3>
+            </div>
+            <p class="text-xs text-gray-400">
+              Leveraging blockchain technology to create new opportunities for artists and fans.
+            </p>
+          </div>
+        </div>
+        <div class="pt-4 flex items-center gap-3">
+          <img
+            src="assets/Cried Wolf - Obvi.jpeg"
+            alt="Obvi"
+            class="w-16 h-16 rounded-full border-2 border-gray-600/50 object-cover object-top"
+          />
+          <div>
+            <p class="text-xs text-gray-400 uppercase tracking-[0.2em]">Artist Profile</p>
+            <p class="text-sm font-semibold text-gray-300">Obvi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-3 border border-gray-700/50 rounded-3xl p-5 bg-gray-800/40 backdrop-blur-sm hover:border-gray-600/30 transition-colors">
+        <h3 class="font-semibold text-sm text-gray-200 uppercase tracking-[0.25em] flex items-center gap-2">
+          <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Quick Facts
+        </h3>
+        <dl class="space-y-2 text-sm">
+          <div class="flex justify-between gap-4">
+            <dt class="text-gray-400">Token Name</dt>
+            <dd class="font-semibold">Cried Wolf (WOLF)</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-gray-400">Artist</dt>
+            <dd class="font-semibold">Obvi</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-gray-400">Ecosystem</dt>
+            <dd class="font-semibold text-gray-300">
+              Gala Music
+            </dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-gray-400">Primary Utility</dt>
+            <dd class="font-semibold">Exclusive content, early drops, VIP access</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-gray-400">Token Use</dt>
+            <dd class="font-semibold">Purchase music, merchandise, and experiences</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- THE CONCEPT -->
+    <section class="space-y-6">
+      <div>
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em]">The Concept</p>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">What is Cried Wolf?</h2>
+        <p class="text-sm sm:text-base text-gray-300 max-w-2xl mt-2">
+          Cried Wolf is the official fan-access utility token for Obvi's ecosystem. Designed to challenge the current system and empower independent artists who feel unheard. This token provides exclusive content, early music releases, VIP access, special events, and behind-the-scenes experiences.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+          <h3 class="font-semibold text-gray-200 mb-3 flex items-center gap-2">
+            <span class="text-lg">💡</span>
+            The idea
+          </h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-1">→</span>
+              <span>Challenge the traditional music industry model and create new pathways for independent artists.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-1">→</span>
+              <span>Empower artists and fans to grow together, creating value outside the traditional system.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-gray-400 mt-1">→</span>
+              <span>Build a space where creatives who refuse to be boxed in can thrive and own their voice.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+          <h3 class="font-semibold text-gray-200 mb-3 flex items-center gap-2">
+            <span class="text-lg">🐺</span>
+            The mission
+          </h3>
+          <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
+            <li>Freedom, ownership, and giving a real voice to creatives.</li>
+            <li>High engagement through exclusive content, early drops, and VIP experiences.</li>
+            <li>A cohesive community built around challenging the status quo and empowering artists.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY IT MAKES SENSE -->
+    <section class="space-y-6">
+      <div>
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em]">The Reason</p>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Why Obvi is perfect for a token ecosystem</h2>
+        <p class="text-sm sm:text-base text-gray-300 max-w-2xl mt-2">
+          RIAA-certified, Billboard-charting artist with a proven track record and a clear vision for artist ownership and creative freedom.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+          <h3 class="font-semibold text-gray-200 mb-2 flex items-center gap-2">
+            <span class="text-lg">🎤</span>
+            Proven Success
+          </h3>
+          <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+            <li>RIAA-certified producer and songwriter</li>
+            <li>Billboard-charting tracks</li>
+            <li>Established presence in the music industry</li>
+          </ul>
+        </div>
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+          <h3 class="font-semibold text-gray-200 mb-2 flex items-center gap-2">
+            <span class="text-lg">💎</span>
+            Artist Ownership Focus
+          </h3>
+          <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+            <li>Clear commitment to creative freedom</li>
+            <li>Championing independent artist pathways</li>
+            <li>Building a model for artist empowerment</li>
+          </ul>
+        </div>
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+          <h3 class="font-semibold text-gray-200 mb-2 flex items-center gap-2">
+            <span class="text-lg">🚀</span>
+            Future Vision
+          </h3>
+          <p class="text-sm text-gray-300">
+            Expansion into exclusive content, token-gated experiences, early listening sessions, VIP access, limited collectibles, and deeper integration into the Web3 music ecosystem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOKENOMICS -->
+    <section id="tokenomics" class="space-y-8">
+      <div class="flex flex-col sm:flex-row sm:items-end gap-3 justify-between">
+        <div>
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em]">The Details</p>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Cried Wolf Utility</h2>
+          <p class="text-sm sm:text-base text-gray-300 max-w-2xl mt-2">
+            Cried Wolf grants holders exclusive access to premium content, early music drops, and fan perks within Obvi's ecosystem. This token can also be used to directly purchase music and merchandise.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <span class="inline-flex items-center rounded-full border border-gray-700 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-gray-300">
+            Utility Token
+          </span>
+          <span class="inline-flex items-center rounded-full border border-gray-700 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-gray-300">
+            Fan Access
+          </span>
+        </div>
+      </div>
+
+      <!-- Token Utility Cards -->
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm">
+        <div>
+          <dt class="text-xs text-gray-400 uppercase tracking-[0.25em] mb-1">Name</dt>
+          <dd class="font-semibold text-sm">Cried Wolf</dd>
+        </div>
+        <div>
+          <dt class="text-xs text-gray-400 uppercase tracking-[0.25em] mb-1">Ticker</dt>
+          <dd class="font-semibold text-sm">$WOLF</dd>
+        </div>
+        <div>
+          <dt class="text-xs text-gray-400 uppercase tracking-[0.25em] mb-1">Ecosystem</dt>
+          <dd class="font-semibold text-sm">Gala Music</dd>
+        </div>
+        <div>
+          <dt class="text-xs text-gray-400 uppercase tracking-[0.25em] mb-1">Type</dt>
+          <dd class="font-semibold text-sm">Utility Token</dd>
+        </div>
+      </div>
+
+      <!-- Utility Overview -->
+      <div class="grid sm:grid-cols-3 gap-4">
+        <div class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 backdrop-blur-sm hover:border-gray-600/30 transition-colors">
+          <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em] mb-2">Exclusive Content</h3>
+          <p class="text-sm text-gray-300">
+            Early music releases, behind-the-scenes content, special events, and VIP experiences.
+          </p>
+        </div>
+        <div class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 backdrop-blur-sm hover:border-gray-500/30 transition-colors">
+          <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em] mb-2">Direct Purchases</h3>
+          <p class="text-sm text-gray-300">
+            Use WOLF to directly purchase music and merchandise within Obvi's ecosystem.
+          </p>
+        </div>
+        <div class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 backdrop-blur-sm hover:border-gray-600/30 transition-colors">
+          <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em] mb-2">Future Expansion</h3>
+          <p class="text-sm text-gray-300">
+            NFTs, membership tiers, live event access, and future collectible drops.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="space-y-6">
+      <div>
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-[0.25em]">The Journey</p>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Future Vision & Expansion</h2>
+        <p class="text-sm sm:text-base text-gray-300 max-w-2xl mt-2">
+          Obvi is expanding into an immersive Web3 ecosystem through exclusive content, digital collectibles, and the emerging Cried Wolf token.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <!-- Phase 1 -->
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm hover:border-gray-600/30 transition-colors">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-gray-400 text-gray-900 font-semibold">Phase 1</span>
+            <h3 class="font-semibold text-gray-200">VIP Access & Experiences</h3>
+          </div>
+          <p class="text-sm text-gray-300">
+            VIP concert and event access via Cried Wolf. Token-gated behind-the-scenes content and docuseries. Token-holder early listening sessions.
+          </p>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm hover:border-gray-500/30 transition-colors">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-gray-500 text-gray-900 font-semibold">Phase 2</span>
+            <h3 class="font-semibold text-gray-200">Wolf Pack Access Tiers</h3>
+          </div>
+          <p class="text-sm text-gray-300">
+            "Wolf Pack" membership tiers with varying levels of access. Limited collectible artwork and collaborations. Integration into Obvi's future projects and releases.
+          </p>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="border border-gray-700/50 rounded-2xl p-5 bg-gray-800/40 backdrop-blur-sm hover:border-gray-600/30 transition-colors">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-gray-600 text-gray-900 font-semibold">Phase 3</span>
+            <h3 class="font-semibold text-gray-200">Advanced Web3 Integration</h3>
+          </div>
+          <p class="text-sm text-gray-300">
+            Expansion into merch, AR/VR experiences, IRL meetups, and Web3 community drops. Deeper metaverse experiences and cross-platform collaborations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED TRACKS -->
+    <section class="space-y-6">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Featured Tracks on GALA Music</h2>
+        <p class="text-sm sm:text-base text-gray-300 max-w-2xl mt-2">
+          Discover Obvi's catalog on Gala Music and across major streaming platforms.
+        </p>
+      </div>
+
+      <div class="text-center">
+        <a
+          href="https://music.gala.com/artists/obvi"
+          target="_blank"
+          class="inline-flex items-center gap-2 rounded-full border border-gray-600/50 text-gray-300 px-6 py-2 text-sm font-semibold hover:bg-gray-800/50 hover:border-gray-500 transition"
+        >
+          View All Tracks on GALA Music
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="border border-gray-700/50 rounded-2xl p-8 bg-gradient-to-br from-gray-800/60 to-gray-900/40 text-center space-y-4">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Ready to challenge the system?</h2>
+      <p class="text-sm sm:text-base text-gray-300 max-w-2xl mx-auto">
+        Get Cried Wolf and unlock exclusive access to Obvi's universe. Early music drops, VIP experiences, and a direct connection to an artist focused on creative freedom and ownership.
+      </p>
+      <div class="flex flex-wrap justify-center gap-3">
+        <a
+          href="https://pump.gala.com/buy-sell/obvi"
+          target="_blank"
+          class="inline-flex items-center gap-2 rounded-full bg-gray-300 text-gray-900 px-6 py-2 text-sm font-semibold shadow-lg shadow-gray-400/30 hover:bg-gray-200 transition"
+        >
+          Buy $WOLF on Gala Pump
+        </a>
+        <a
+          href="https://music.gala.com/artists/obvi"
+          target="_blank"
+          class="inline-flex items-center gap-2 rounded-full border border-gray-600/50 text-gray-300 px-6 py-2 text-sm font-semibold hover:bg-gray-800/50 hover:border-gray-500 transition"
+        >
+          Listen on Gala Music
+        </a>
+      </div>
+    </section>
+
+    <!-- LINKS / SOCIALS -->
+    <section id="links" class="space-y-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Connect</h2>
+      <p class="text-sm sm:text-base text-gray-300 max-w-2xl">
+        Follow Obvi, listen to the music, and keep up with Cried Wolf announcements and drops.
+      </p>
+
+      <div class="grid sm:grid-cols-2 gap-4 text-sm">
+        <a
+          href="https://music.gala.com/artists/obvi"
+          target="_blank"
+          class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 hover:border-gray-600 hover:bg-gray-700/50 transition flex flex-col justify-between backdrop-blur-sm group"
+        >
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <img
+                src="assets/Cried Wolf - Obvi.jpeg"
+                alt="GALA Music"
+                class="w-8 h-8 rounded-full border border-gray-600/30 object-cover object-top group-hover:border-gray-500 transition"
+              />
+              <h3 class="font-semibold text-gray-50">GALA Music</h3>
+            </div>
+            <p class="text-gray-300 text-xs">
+              Listen to Obvi, explore drops, and see how Web3 music works.
+            </p>
+          </div>
+          <span class="mt-3 text-[11px] text-gray-400 uppercase tracking-[0.2em]">
+            music.gala.com
+          </span>
+        </a>
+
+        <a
+          href="https://pump.gala.com/buy-sell/obvi"
+          target="_blank"
+          class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 hover:border-gray-600 hover:bg-gray-700/50 transition flex flex-col justify-between backdrop-blur-sm group"
+        >
+          <div>
+            <h3 class="font-semibold text-gray-50 mb-1 flex items-center gap-2">
+              <svg class="w-5 h-5 text-gray-400 group-hover:text-gray-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Gala Pump
+            </h3>
+            <p class="text-gray-300 text-xs">
+              Buy and trade Cried Wolf (WOLF) on Gala Pump.
+            </p>
+          </div>
+          <span class="mt-3 text-[11px] text-gray-400 uppercase tracking-[0.2em]">
+            pump.gala.com
+          </span>
+        </a>
+
+        <a
+          href="https://www.instagram.com/whatupobvi/?hl=en"
+          target="_blank"
+          class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 hover:border-gray-600 hover:bg-gray-700/50 transition flex flex-col justify-between backdrop-blur-sm group"
+        >
+          <div>
+            <h3 class="font-semibold text-gray-50 mb-1 flex items-center gap-2">
+              <svg class="w-5 h-5 text-gray-400 group-hover:text-gray-300 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </h3>
+            <p class="text-gray-300 text-xs">
+              Follow Obvi for updates, behind-the-scenes content, and announcements.
+            </p>
+          </div>
+          <span class="mt-3 text-[11px] text-gray-400 uppercase tracking-[0.2em]">
+            @whatupobvi
+          </span>
+        </a>
+
+        <a
+          href="https://x.com/whatupobvi"
+          target="_blank"
+          class="border border-gray-700/50 rounded-2xl p-4 bg-gray-800/40 hover:border-gray-600 hover:bg-gray-700/50 transition flex flex-col justify-between backdrop-blur-sm group"
+        >
+          <div>
+            <h3 class="font-semibold text-gray-50 mb-1 flex items-center gap-2">
+              <svg class="w-5 h-5 text-gray-400 group-hover:text-gray-300 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+              X (Twitter)
+            </h3>
+            <p class="text-gray-300 text-xs">
+              Get Cried Wolf updates, music releases, and announcements from Obvi.
+            </p>
+          </div>
+          <span class="mt-3 text-[11px] text-gray-400 uppercase tracking-[0.2em]">
+            @whatupobvi
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- LEGAL -->
+    <section class="space-y-3 text-[11px] border border-gray-700/50 rounded-2xl p-4 bg-gray-800/60">
+      <h2 class="font-semibold text-gray-200 uppercase tracking-[0.25em] text-xs">
+        Legal &amp; Compliance Notice
+      </h2>
+      <p class="text-gray-400">
+        Cried Wolf (WOLF) is designed as a <span class="font-semibold">utility token</span> intended for use within Obvi's ecosystem for accessing exclusive content, purchasing music and merchandise, and participating in fan experiences. It is not being positioned as a security or investment contract. No guarantees are made regarding price, liquidity, or future appreciation.
+      </p>
+      <p class="text-gray-400">
+        Participants should independently assess all applicable legal, tax, and regulatory obligations in their jurisdiction before acquiring or using Cried Wolf. Early-stage crypto assets can be highly volatile and may carry a risk of partial or total loss.
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-700/50 py-8 text-center space-y-4">
+    <div class="flex items-center justify-center gap-2 mb-4">
+      <img src="assets/Cried Wolf - Obvi.jpeg" alt="Cried Wolf" class="w-8 h-8 rounded-full border border-gray-600/30 object-cover object-top" />
+      <div class="text-left">
+        <p class="text-xs font-semibold text-gray-300">Cried Wolf</p>
+        <p class="text-[10px] text-gray-500">Obvi Universe</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 max-w-2xl mx-auto px-4">
+      A tokenized ecosystem built to challenge the current system and empower independent artists who feel unheard. Proudly Bay Area–born, focused on creative freedom, and fueled by a vision for artist ownership.
+    </p>
+    <p class="text-[10px] text-gray-500 px-4">
+      This page is for creative and community purposes only. No promises, no financial advice, no guarantees.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 text-xs text-gray-400">
+      <a href="https://music.gala.com/artists/obvi" target="_blank" class="hover:text-gray-300 transition">Gala Music</a>
+      <a href="https://www.instagram.com/whatupobvi/?hl=en" target="_blank" class="hover:text-gray-300 transition">Instagram</a>
+      <a href="https://x.com/whatupobvi" target="_blank" class="hover:text-gray-300 transition">X / Twitter</a>
+      <a href="https://pump.gala.com/buy-sell/obvi" target="_blank" class="hover:text-gray-300 transition">Buy $WOLF</a>
+    </div>
+    <p class="text-[10px] text-gray-500 mt-4">© <span id="year"></span> Cried Wolf (WOLF). All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
